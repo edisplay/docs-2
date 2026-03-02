@@ -4,6 +4,19 @@ description: Check out the latest Stacks developer updates
 
 # Latest Updates
 
+### Fetch Deposit and Withdrawal Status for USDCx Bridging
+
+_March 2nd, 2026_
+
+**\[USDCx]** Deposit and withdrawal status endpoints for USDCx give applications a reliable way to track the lifecycle of cross-chain transfers between Stacks and other networks. Instead of manually monitoring multiple transactions and bridge events, developers can query a single endpoint to see whether a deposit or withdrawal is pending, verified, failed, or completed.
+
+* Fetch withdrawal status for a USDCx burn event:\
+  [https://api.usdc-on-stacks.com/testnet/withdrawals/0x5dfcc46c8e284132b702bb976b5b7d1f170d9c49f3b963fa0127ea348a228912/1](https://api.usdc-on-stacks.com/testnet/withdrawals/0x5dfcc46c8e284132b702bb976b5b7d1f170d9c49f3b963fa0127ea348a228912/1)
+
+Navigate to the USDCx API section [here](https://app.gitbook.com/s/GVj1Z9vMuEOMe7oH7Wnq/api/usdcx).
+
+***
+
 ### Query PoX Activity on Bitcoin with new API endpoints
 
 _February 26th, 2026_
